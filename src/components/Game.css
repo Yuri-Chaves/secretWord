@@ -1,0 +1,42 @@
+span{
+    color: #ecfa00;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.wordContainer{
+    padding: 1.5em;
+    border: 15px solid #ecfa00;
+    display: flex;
+}
+.letter, .blanckSquare{
+    font-size: 70px;
+    line-height: normal;
+    border: 3px solid #000;
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+    color: black;
+}
+.letterContainer, .letterContainer form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.letterContainer{
+    gap: 16px;
+}
+.letterContainer form{
+    flex-direction: row;
+    gap: 8px;
+}
+.letterContainer input{
+    width: 50px;
+    height: 50px;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Hanalei Fill', cursive;
+}
